@@ -44,7 +44,6 @@
 - https://www.youtube.com/watch?v=thHifm9cv8M
 ### 3/30/2023
 - ![image](https://user-images.githubusercontent.com/107389219/228973954-eb699bff-5ae3-46bc-b3b2-453343a64f5e.png)
-
 ### 3/31/2023
 Goal: 
 Given data for jason file, come up with a code that converts json file into coco format. 
@@ -56,3 +55,8 @@ Use the structre of json file to come up with coco format:
 
 To test the code:
 Run the file trhough Detectron2 and check if the annotation looks good 
+### 4/4/2023
+- built code that annotated paddle from an image
+- built code that converts the annotation data into COCO dataformat 
+### 4/5/2023
+- 
