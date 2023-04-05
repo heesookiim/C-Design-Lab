@@ -56,7 +56,9 @@ Use the structre of json file to come up with coco format:
 To test the code:
 Run the file trhough Detectron2 and check if the annotation looks good 
 ### 4/4/2023
-- built code that annotated paddle from an image
-- built code that converts the annotation data into COCO dataformat 
+- built code that annotated paddle from an image (annotation.py)
+- built code that converts the annotation data into COCO dataformat (updated annotation.py) 
+![image](https://user-images.githubusercontent.com/107389219/230163572-2168e6af-5d1e-4e3d-923e-44fbdf1d1426.png)
+
 ### 4/5/2023
 - 
