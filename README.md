@@ -1,9 +1,7 @@
 # ICCV2023 
 ICCV2023 Preparation
 ## To-do list
-- [ ] Implementation of error handling procedures during the initialization of folders.
-- [ ] Develop a code that enables users to select a particular camera for the purpose of calibration.
-- [ ] Take the video instead of image for axes reconstruction
+- [ ] Add some functions to annotation.py -> i.e.) given the existing anotated data, how should we add another image to annotate?
 ## Summary
 ### 2/8/2023 
 - Developed functionality for creating recursive folders, such as TASK_1 -> SUBJECT_1 -> OBJECT_1.
