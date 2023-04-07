@@ -1,4 +1,9 @@
-# C-Design-Lab
+# ICCV2023 
+ICCV2023 Preparation
+## To-do list
+- [ ] Implementation of error handling procedures during the initialization of folders.
+- [ ] Develop a code that enables users to select a particular camera for the purpose of calibration.
+- [ ] Take the video instead of image for axes reconstruction
 ## Summary
 ### 2/8/2023 
 - Developed functionality for creating recursive folders, such as TASK_1 -> SUBJECT_1 -> OBJECT_1.
@@ -44,6 +49,7 @@
 - https://www.youtube.com/watch?v=thHifm9cv8M
 ### 3/30/2023
 - ![image](https://user-images.githubusercontent.com/107389219/228973954-eb699bff-5ae3-46bc-b3b2-453343a64f5e.png)
+
 ### 3/31/2023
 Goal: 
 Given data for jason file, come up with a code that converts json file into coco format. 
@@ -55,10 +61,18 @@ Use the structre of json file to come up with coco format:
 
 To test the code:
 Run the file trhough Detectron2 and check if the annotation looks good 
-### 4/4/2023
-- built code that annotated paddle from an image (annotation.py)
-- built code that converts the annotation data into COCO dataformat (updated annotation.py) 
-![image](https://user-images.githubusercontent.com/107389219/230163572-2168e6af-5d1e-4e3d-923e-44fbdf1d1426.png)
 
-### 4/5/2023
-- 
+### 4/3/2023
+- Created annotation.py, which gives image information, keypoints, and rectangle box.
+<img width="588" alt="Screenshot 2023-04-04 at 3 13 27 PM" src="https://user-images.githubusercontent.com/67416712/229896484-c5959053-e006-4548-9e3e-81553c785abc.png">
+<img width="702" alt="Screenshot 2023-04-04 at 3 13 52 PM" src="https://user-images.githubusercontent.com/67416712/229896581-1feab710-19b1-4c23-b076-cfa6a090efd2.png">
+
+### 4/7/2023
+![image](https://user-images.githubusercontent.com/107389219/230676115-8e771ac1-19ef-4097-b9b1-fff162b0d72e.png)
+![image](https://user-images.githubusercontent.com/107389219/230676138-85a21f60-e86e-40df-bda4-66a5d7ef4c98.png)
+![image](https://user-images.githubusercontent.com/107389219/230676146-cc905528-59c6-4101-b481-5f6db326290c.png)
+![image](https://user-images.githubusercontent.com/107389219/230676164-c0cb136a-9e13-466e-8a88-9fad9aa8c064.png)
+![image](https://user-images.githubusercontent.com/107389219/230676177-c4749bc0-495f-4199-8dfa-798bf98159e8.png)
+- performed object detection and key point detection using the COCO dataset
+- COCO dataset was provided by annotation.py code that was created in 4/3
+
