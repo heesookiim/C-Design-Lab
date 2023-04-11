@@ -74,3 +74,14 @@ Run the file trhough Detectron2 and check if the annotation looks good
 - performed object detection and key point detection using the COCO dataset
 - COCO dataset was provided by annotation.py code that was created in 4/3
 
+### 4/11/2023
+- trained total 61 annotated images to rcnn model through Detectron2
+- Tested the model using random images from train dataset
+![image](https://user-images.githubusercontent.com/107389219/231313474-c8e79042-708d-4597-8b24-e9c55561168f.png)
+![image](https://user-images.githubusercontent.com/107389219/231313495-f9fda910-3516-4606-b684-e7fbdb73a4a6.png)
+![image](https://user-images.githubusercontent.com/107389219/231313508-8bbb25ac-e627-4e27-b89e-1de8b4986b4a.png)
+![image](https://user-images.githubusercontent.com/107389219/231313516-3c866e6b-e9d5-49e6-96ca-583bd28bfd4a.png)
+
+
+- Tested the model using one image outside of train dataset
+![image](https://user-images.githubusercontent.com/107389219/231313460-a6fe79e2-3973-42bd-bb42-c1268e1423d1.png)
