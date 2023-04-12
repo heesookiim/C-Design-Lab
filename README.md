@@ -86,7 +86,8 @@ Run the file trhough Detectron2 and check if the annotation looks good
 ![image](https://user-images.githubusercontent.com/107389219/231313516-3c866e6b-e9d5-49e6-96ca-583bd28bfd4a.png)
 - Tested the model using one image outside of train dataset
 ![image](https://user-images.githubusercontent.com/107389219/231313460-a6fe79e2-3973-42bd-bb42-c1268e1423d1.png)
-- Overall: based on the images after training, the model seems to be overtrained. 
+- Overall: 
+-> based on the images after training, the model provides good bbox output but not key points.
 - Next Goal:
 - [ ] Try to get bbox first then the key points
 - [ ] Triangulate to get the depth
