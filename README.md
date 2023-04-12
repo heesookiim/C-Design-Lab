@@ -1,10 +1,10 @@
-# ICCV2023 
-ICCV2023 Preparation
+# C-Design-Lab
 ## To-do list
 - [ ] Try to get bbox first then the key points
 - [ ] Triangulate to get the depth
 - [ ] Penalize the model for the points being to far from each other
 ## Summary
+## ICCV2023 Preparation
 ### 2/8/2023 
 - Developed functionality for creating recursive folders, such as TASK_1 -> SUBJECT_1 -> OBJECT_1.
 - Implemented error handling code to address existing folders using FileExistsError.
@@ -29,6 +29,7 @@ ICCV2023 Preparation
 ![image](https://user-images.githubusercontent.com/32153697/221323671-bb81fe07-9664-4c70-bfd9-83d54307d36d.png)
 ![image](https://user-images.githubusercontent.com/32153697/221324178-e98dcd31-78cf-4b0a-99d9-048dc1011e48.png)
 ![texture_hammer](https://user-images.githubusercontent.com/32153697/221324385-38a43fa4-5ee8-46bf-9a50-c28a863ee95f.png)
+## Project Paddle with Dizhi
 ### 3/8/2023 
 - Collabroated with Dizhi Ma's work 
 - Understood code from ArUCo for Pose estimation
