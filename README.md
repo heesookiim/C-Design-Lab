@@ -1,5 +1,6 @@
 # C-Design-Lab
 ## To-do list
+- [ ] run paddle_detection.ipynb with 5000 max_iteration
 - [ ] Try to get bbox first then the key points
 - [ ] Triangulate to get the depth
 - [ ] Penalize the model for the points being to far from each other
@@ -90,3 +91,21 @@ Run the file trhough Detectron2 and check if the annotation looks good
 - [ ] Try to get bbox first then the key points
 - [ ] Triangulate to get the depth
 - [ ] Penalize the model for the points being to far from each other
+
+### 4/12/2023
+Rough draft:
+1. Model training -> do it through Google Colab
+2. Import the trained model from Google Drive to local device
+3. Implement "get_keypoints.py" 
+- performs evaluation of the detected keypoints
+- send the keypoint data to "get_pnp.py"
+- condition:
+	-> if there are 5 keypoints in bbox range, then it's valid
+	-> set bbox threshold to 96% // in Detectron2 Tutorial, there was an image that detects a baby's head as a balloon with 95% accuracy in bbox
+
+Ideas for improvements:
+- More data
+
+Overall plan:
+- Friday 4/14: get more data
+- Monday 4/17: start to implement "get_keypoints.py"
