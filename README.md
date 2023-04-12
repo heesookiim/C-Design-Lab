@@ -1,7 +1,9 @@
 # ICCV2023 
 ICCV2023 Preparation
 ## To-do list
-- [ ] Add some functions to annotation.py -> i.e.) given the existing anotated data, how should we add another image to annotate?
+- [ ] Try to get bbox first then the key points
+- [ ] Triangulate to get the depth
+- [ ] Penalize the model for the points being to far from each other
 ## Summary
 ### 2/8/2023 
 - Developed functionality for creating recursive folders, such as TASK_1 -> SUBJECT_1 -> OBJECT_1.
@@ -81,7 +83,10 @@ Run the file trhough Detectron2 and check if the annotation looks good
 ![image](https://user-images.githubusercontent.com/107389219/231313495-f9fda910-3516-4606-b684-e7fbdb73a4a6.png)
 ![image](https://user-images.githubusercontent.com/107389219/231313508-8bbb25ac-e627-4e27-b89e-1de8b4986b4a.png)
 ![image](https://user-images.githubusercontent.com/107389219/231313516-3c866e6b-e9d5-49e6-96ca-583bd28bfd4a.png)
-
-
 - Tested the model using one image outside of train dataset
 ![image](https://user-images.githubusercontent.com/107389219/231313460-a6fe79e2-3973-42bd-bb42-c1268e1423d1.png)
+- Overall: based on the images after training, the model seems to be overtrained. 
+- Next Goal:
+- [ ] Try to get bbox first then the key points
+- [ ] Triangulate to get the depth
+- [ ] Penalize the model for the points being to far from each other
