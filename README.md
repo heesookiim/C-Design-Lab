@@ -1,29 +1,37 @@
 # C-Design-Lab
-## To-do list
-- [ ] run paddle_detection.ipynb with 5000 max_iteration
+
+## To-do List
+- [ ] Run `paddle_detection.ipynb` with 5000 max_iteration
 - [ ] Try to get bbox first then the key points
 - [ ] Triangulate to get the depth
-- [ ] Penalize the model for the points being to far from each other
+- [ ] Penalize the model for the points being too far from each other
+
 ## ICCV2023 Preparation
+
 ### 2/8/2023 
-- Developed functionality for creating recursive folders, such as TASK_1 -> SUBJECT_1 -> OBJECT_1.
-- Implemented error handling code to address existing folders using FileExistsError.
+- Developed functionality for creating recursive folders, such as `TASK_1 -> SUBJECT_1 -> OBJECT_1`.
+- Implemented error handling code to address existing folders using `FileExistsError`.
+
 ### 2/9/2023 
 - Configured camera position settings to move closer to the object.
+
 ### 2/13/2023 
-- Debugged calibration.py for Mac and Linux operating systems.
+- Debugged 'calibration.py' for Mac and Linux operating systems.
 - Confirmation of calibration is currently pending.
+
 ### 2/14/2023 
 - Finalized the environment to ensure accurate calibration
 - Executed the calibration process
 - Collaborated on generating ideas for complex tasks
 - Created 3D models by filming various objects
+
 ### 2/16/2023 
-- Help debugging get_parameter.py
-- studied detectron
+- Help debugging 'get_parameter.py'
+- studied 'Detectron'
+
 ### 2/24/2023 
 - Capture images of an object and created a 3D model of it out
-- Reconstructed the texture of the object using Mashlab
+- Reconstructed the texture of the object using 'Mashlab'
 - green and red electric drills, and a hammer have been constructed so far
 ![image](https://user-images.githubusercontent.com/32153697/221323443-deaa1d35-e5ad-498f-ad8f-0dcf1bfff5d7.png)
 ![image](https://user-images.githubusercontent.com/32153697/221323671-bb81fe07-9664-4c70-bfd9-83d54307d36d.png)
@@ -62,14 +70,14 @@ Update: Decided to explore using the Detectron2 framework for key point detectio
 Objective:
 - Develop a code that can transform a given json file into the coco format.
 
-Q: Is there a specific coco format that Detectron uses?
+Q: Is there a specific coco format that 'Detectron' uses?
 
 A: Yes, the format is referred to as coco_format.json. However, we can utilize the structure of the provided json file to develop a corresponding coco format.
 
 - To validate the code's accuracy, we can run the generated file through Detectron2 and examine the annotation's quality.
 
 ### 4/3/2023
-- Created annotation.py, which gives image information, keypoints, and rectangle box.
+- Created 'annotation.py', which gives image information, keypoints, and rectangle box.
 <img width="588" alt="Screenshot 2023-04-04 at 3 13 27 PM" src="https://user-images.githubusercontent.com/67416712/229896484-c5959053-e006-4548-9e3e-81553c785abc.png">
 <img width="702" alt="Screenshot 2023-04-04 at 3 13 52 PM" src="https://user-images.githubusercontent.com/67416712/229896581-1feab710-19b1-4c23-b076-cfa6a090efd2.png">
 
@@ -83,7 +91,7 @@ A: Yes, the format is referred to as coco_format.json. However, we can utilize t
 ![image](https://user-images.githubusercontent.com/107389219/230676177-c4749bc0-495f-4199-8dfa-798bf98159e8.png)
 
 ### 4/11/2023
-- Trained the rcnn model with a total of 61 annotated images, utilizing Detectron2.
+- Trained the rcnn model with a total of 61 annotated images, utilizing 'Detectron2'.
 - Tested the model's efficacy with a selection of random images from the training dataset.
 ![image](https://user-images.githubusercontent.com/107389219/231313474-c8e79042-708d-4597-8b24-e9c55561168f.png)
 ![image](https://user-images.githubusercontent.com/107389219/231313495-f9fda910-3516-4606-b684-e7fbdb73a4a6.png)
@@ -101,9 +109,9 @@ A: Yes, the format is referred to as coco_format.json. However, we can utilize t
 Rough draft:
 1. Model training -> do it through Google Colab
 2. Import the trained model from Google Drive to local device
-3. Implement "get_keypoints.py" 
+3. Implement 'get_keypoints.py' 
 - performs evaluation of the detected keypoints
-- send the keypoint data to "get_pnp.py"
+- send the keypoint data to 'get_pnp.py'
 - condition:
 	-> if there are 5 keypoints in bbox range, then it's valid
 	-> set bbox threshold to 96% // in Detectron2 Tutorial, there was an image that detects a baby's head as a balloon with 95% accuracy in bbox
@@ -113,11 +121,11 @@ Ideas for improvements:
 
 Overall plan:
 - Friday 4/14: get more data
-- Monday 4/17: start to implement "get_keypoints.py"
+- Monday 4/17: start to implement 'get_keypoints.py'
 
 ### 4/13/2023
 - Re-trained the rcnn model with an additional 2000 iterations, totaling 5000 iterations.
 - Captured 12 videos to increase the number of images available for annotation and training.
 - Extracted each frame from the videos and selected the unblurred images.
-- Organized the selected images into the "frame_pre_annotated" folder.  
+- Organized the selected images into the 'frame_pre_annotated' folder.  
 ![image](https://user-images.githubusercontent.com/107389219/231892593-ce0d5069-a658-4fc7-ab00-a2602eec9099.png)
