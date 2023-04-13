@@ -125,6 +125,8 @@ Overall plan:
 
 ### 4/13/2023
 - Re-trained the rcnn model with an additional 2000 iterations, totaling 5000 iterations.
+![eval1 (1)](https://user-images.githubusercontent.com/107389219/231896973-1155f23a-505e-4901-b4f8-f812588be1e0.jpg)
+- In general, the model yields better bbox output, but its key points detection is still unsatisfactory. There still is one less key point on the paddle. 
 - Captured 12 videos to increase the number of images available for annotation and training.
 - Extracted each frame from the videos and selected the unblurred images.
 - Organized the selected images into the 'frame_pre_annotated' folder.  
