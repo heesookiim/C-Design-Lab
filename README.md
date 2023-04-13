@@ -109,3 +109,9 @@ Ideas for improvements:
 Overall plan:
 - Friday 4/14: get more data
 - Monday 4/17: start to implement "get_keypoints.py"
+
+### 4/13/2023
+- Took 12 videos to get more images for annotation and training the model
+- Extracted each frame from videos and selected unblurred images
+- Organized selected images into "frame_pre_annotated" folder  
+![image](https://user-images.githubusercontent.com/107389219/231892593-ce0d5069-a658-4fc7-ab00-a2602eec9099.png)
