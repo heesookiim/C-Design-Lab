@@ -133,3 +133,12 @@ Overall plan:
 - Next Goal: 
 - [ ] implement a code for evaluation
 - [ ] retrain the model with total 200 epochs  
+
+### 4/18/2023 
+Done:
+- [x] implement a code for evaluation
+- [x] retrain the model with total 200 epochs  
+Next Goal:
+- [ ] Create evaluation dataset and run COCOevaluator to get some metrics
+- [ ] Make sure the performance is reasonable. -> this is for key point detection
+- [ ] Look at different paper to check the performance on popular dataset to improve your model to be better than theirs
