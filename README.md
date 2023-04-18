@@ -79,7 +79,6 @@ A: Yes, the format is referred to as coco_format.json. However, we can utilize t
 
 ### 4/3/2023
 - Created 'annotation.py', which gives image information, keypoints, and rectangle box.
-<img width="588" alt="Screenshot 2023-04-04 at 3 13 27 PM" src="https://user-images.githubusercontent.com/67416712/229896484-c5959053-e006-4548-9e3e-81553c785abc.png">
 <img width="702" alt="Screenshot 2023-04-04 at 3 13 52 PM" src="https://user-images.githubusercontent.com/67416712/229896581-1feab710-19b1-4c23-b076-cfa6a090efd2.png">
 
 ### 4/7/2023
