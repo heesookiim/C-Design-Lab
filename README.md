@@ -85,19 +85,10 @@ A: Yes, the format is referred to as coco_format.json. However, we can utilize t
 ### 4/7/2023
 - Utilized the COCO dataset to execute object detection and key point detection.
 - Acquired the COCO dataset from the annotation.py code developed on April 3rd.
-![image](https://user-images.githubusercontent.com/107389219/230676115-8e771ac1-19ef-4097-b9b1-fff162b0d72e.png)
-![image](https://user-images.githubusercontent.com/107389219/230676138-85a21f60-e86e-40df-bda4-66a5d7ef4c98.png)
-![image](https://user-images.githubusercontent.com/107389219/230676146-cc905528-59c6-4101-b481-5f6db326290c.png)
-![image](https://user-images.githubusercontent.com/107389219/230676164-c0cb136a-9e13-466e-8a88-9fad9aa8c064.png)
-![image](https://user-images.githubusercontent.com/107389219/230676177-c4749bc0-495f-4199-8dfa-798bf98159e8.png)
 
 ### 4/11/2023
 - Trained the rcnn model with a total of 61 annotated images, utilizing 'Detectron2'.
 - Tested the model's efficacy with a selection of random images from the training dataset.
-![image](https://user-images.githubusercontent.com/107389219/231313474-c8e79042-708d-4597-8b24-e9c55561168f.png)
-![image](https://user-images.githubusercontent.com/107389219/231313495-f9fda910-3516-4606-b684-e7fbdb73a4a6.png)
-![image](https://user-images.githubusercontent.com/107389219/231313508-8bbb25ac-e627-4e27-b89e-1de8b4986b4a.png)
-![image](https://user-images.githubusercontent.com/107389219/231313516-3c866e6b-e9d5-49e6-96ca-583bd28bfd4a.png)
 - Tested the model using one image outside of train dataset
 ![image](https://user-images.githubusercontent.com/107389219/231313460-a6fe79e2-3973-42bd-bb42-c1268e1423d1.png)
 - In general, the model yields satisfactory bbox output, but its key points detection is unsatisfactory after training.
