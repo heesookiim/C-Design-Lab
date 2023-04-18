@@ -1,10 +1,11 @@
 # C-Design-Lab
 
 ## To-do List
-- [ ] Run `paddle_detection.ipynb` with 5000 max_iteration
 - [ ] Try to get bbox first then the key points
 - [ ] Triangulate to get the depth
 - [ ] Penalize the model for the points being too far from each other
+- [ ] implement a code for evaluation
+- [ ] retrain the model with total 200 epochs  
 
 ## ICCV2023 Preparation
 
@@ -131,3 +132,14 @@ Overall plan:
 - Extracted each frame from the videos and selected the unblurred images.
 - Organized the selected images into the 'frame_pre_annotated' folder.  
 ![image](https://user-images.githubusercontent.com/107389219/231892593-ce0d5069-a658-4fc7-ab00-a2602eec9099.png)
+
+### 4/17/2023
+- Annotated 250 images more by using `annotation.py` created in April 3rd
+- Re-trained the pre-trained rcnn model with updated images. Total 40 epochs
+- Created testdataset from unused images based on three categories: Clear, Blurry, Missing Keypoints
+![eval2](https://user-images.githubusercontent.com/107389219/232642555-65c14425-a29f-4914-b4e1-0a804f988db7.jpg)
+![eval1](https://user-images.githubusercontent.com/107389219/232642559-a615b193-8547-4cd8-aa7c-9db4e04e2c59.jpg)
+- In most cases, bounding box detection is accurate but keypoint detection has not been as accurate as that of bbox
+- Next Goal: 
+- [ ] implement a code for evaluation
+- [ ] retrain the model with total 200 epochs  
