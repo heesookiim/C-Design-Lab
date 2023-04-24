@@ -8,6 +8,9 @@
 - [ ] retrain the model with total 200 epochs  
 
 ## ICCV2023 Preparation
+### 1/24/2023
+- Brainstormed for tasks
+https://docs.google.com/document/d/1PJAIQMMVx-8K0MvQrfuXwWGvp-2LW5I3v94bGQELx88/edit
 
 ### 2/8/2023 
 - Developed functionality for creating recursive folders, such as `TASK_1 -> SUBJECT_1 -> OBJECT_1`.
